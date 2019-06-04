@@ -1,5 +1,6 @@
 body{
-      background: #e1e4e9;
+  background: #e1e4e9;
+  overflow-x: hidden;
 }
 .header{
   position: relative;
@@ -206,6 +207,7 @@ select{
 .rightSideBoxA{
   color: #428bca;
   text-decoration: none;
+  font-size: 20px;
 }
 
 .socBox{
@@ -279,5 +281,11 @@ select{
   }
   .addMore{
     width: 90%;
+  }
+  .searchDiv{
+    margin-top: 20px;
+  }
+  .butOne, .butTwo{
+    height: 57px;
   }
 }
