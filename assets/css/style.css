@@ -41,6 +41,7 @@ main{
   position: relative;
   background: #F5F5F5;
   box-shadow: 0 0 18px 8px #DBDBDB;
+  margin-bottom: 334px;
 }
 
 .butOne, .butTwo{
@@ -263,10 +264,29 @@ select{
   color: #0099ff;
 }
 
-
 .shareStatistic p{
   margin: 0;
   color: #697c97;
+}
+
+.footer{
+  border-top: 4px solid #ffffff;
+  background: #586476;
+}
+
+.footer a{
+  color: #c6c6c6;
+  font-size: 12px;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.footerContent{
+  padding: 35px 5px 15px 5px;
+}
+
+.number{
+  font-size: 24px !important;
 }
 
 @media (max-width:768px) {
@@ -287,5 +307,8 @@ select{
   }
   .butOne, .butTwo{
     height: 57px;
+  }
+  .white{
+    margin-bottom: 50px;
   }
 }

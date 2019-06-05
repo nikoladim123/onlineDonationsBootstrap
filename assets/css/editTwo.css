@@ -183,6 +183,28 @@ body{
   filter: brightness(120%);
 }
 
+.footer{
+  position: relative;
+  z-index: 1;
+  border-top: 4px solid #ffffff;
+  background: #586476;
+}
+
+.footer a{
+  color: #c6c6c6;
+  font-size: 12px;
+}
+.footer a:hover{
+  text-decoration: underline;
+}
+.footerContent{
+  padding: 35px 5px 15px 5px;
+}
+
+.number{
+  font-size: 24px !important;
+}
+
 
 
 
