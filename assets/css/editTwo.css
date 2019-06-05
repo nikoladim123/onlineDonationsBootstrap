@@ -97,7 +97,8 @@ body{
 }
 
 .nextStep:hover{
-  background: linear-gradient(to bottom, #fdb678 0%, #e37a1a 100%)
+  filter: brightness(120%);
+  /* background: linear-gradient(to bottom, #fdb678 0%, #e37a1a 100%) */
 }
 
 .campingStatusBox{
@@ -172,6 +173,19 @@ body{
   margin-top: 20px;
   font-family: "Arial";
 }
+
+.clickHere{
+  transition: 0.3s;
+}
+
+.clickHere:hover{
+  cursor: pointer;
+  filter: brightness(120%);
+}
+
+
+
+
 @media (max-width:768px){
   .white{
     margin-top: 0px;
