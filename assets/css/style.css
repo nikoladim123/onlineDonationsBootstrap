@@ -46,7 +46,7 @@ main{
 .butOne, .butTwo{
   height: 40px;
   transition: 0.3s;
-  background-image: url('images/buttonLeft.png');
+  background-image: url('../images/buttonLeft.png');
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -59,7 +59,7 @@ main{
 }
 .butTwo{
   padding-right: 25px;
-  background-image: url('images/buttonRight.png');
+  background-image: url('../images/buttonRight.png');
 }
 .butOne:hover,.butTwo:hover{
   cursor: pointer;
@@ -170,7 +170,7 @@ select{
 .runinLine{
   position: relative;
   margin-top: 10px;
-  background-image: url('images/runLine.jpg');
+  background-image: url('../images/runLine.jpg');
   background-size: 100% 100%;
   width: 90%;
   height: 41px;
