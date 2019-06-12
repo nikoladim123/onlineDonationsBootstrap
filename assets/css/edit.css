@@ -2,11 +2,11 @@ body{
   background: #e1e4e9;
   overflow-x: hidden;
 }
-.container-fluid{
+.edit .container-fluid{
   padding: 0;
 }
 
-.header{
+.edit .header{
   position: relative;
   z-index: 1;
   height: 112px;
@@ -14,17 +14,17 @@ body{
   background: linear-gradient(to bottom,  #f6f6f6 0%,#c6cdd2 100%);
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
-.logo{
+.edit .logo{
   margin-top: 20px;
   width: 304px;
 }
-.logOut{
+.edit .logOut{
   display: flex;
   font-weight: bold;
   color: #777;
   margin-top: 10px;
 }
-.logOut p::before{
+.edit .logOut p::before{
   content: '';
   display: block;
   background-color: #62affa;
@@ -35,16 +35,16 @@ body{
   top: 18px;
   left: -15px;
 }
-.logOut p:hover{
+.edit .logOut p:hover{
   cursor: pointer;
   color: #62affa;
 }
 
-.banerImg{
+.edit .banerImg{
   width: 100%;
 }
 
-.white{
+.edit .white{
   padding-bottom: 60px;
   position: relative;
   background: #F5F5F5;
@@ -53,7 +53,7 @@ body{
   margin-bottom: 50px;
 }
 
-.graysh{
+.edit .graysh{
   padding: 10px;
   border-radius: 3px;
   border: 3px solid #dddddd;
@@ -62,7 +62,7 @@ body{
   align-items: center; */
 }
 
-.stepOne{
+.edit .stepOne{
   line-height: 48px;
   font-weight: bold;
   font-family: Tahoma;
@@ -73,12 +73,12 @@ body{
   text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
 }
 
-.stepOne span{
+.edit .stepOne span{
   font-size: 23px !important;
   color: #fde65a;
 }
 
-.nextStep{
+.edit .nextStep{
   transition: 0.3s;
   border: solid 1px #d8c4b3;
   background: #fdb678;
@@ -96,15 +96,15 @@ body{
   color: #ffffff;
 }
 
-.nextStep:hover{
+.edit .nextStep:hover{
   background: linear-gradient(to bottom, #fdb678 0%, #e37a1a 100%)
 }
 
-.campingStatusBox{
+.edit .campingStatusBox{
   padding-top: 30px;
 }
 
-.runinLine{
+.edit .runinLine{
   position: relative;
   margin-top: 10px;
   background-image: url('../images/runLine.jpg');
@@ -116,7 +116,7 @@ body{
   border-radius: 3px;
 }
 
-.campingStatusBox h3 {
+.edit .campingStatusBox h3 {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 16px;
     color: #697c97;
@@ -124,78 +124,78 @@ body{
     margin: 0;
     font-size: 16px;
 }
-.campingStatusBox h3 a:nth-child(1){
+.edit .campingStatusBox h3 a:nth-child(1){
   color: #28a7fb;
 }
-.campingStatusBox h3 a:nth-child(2){
+.edit .campingStatusBox h3 a:nth-child(2){
   color: #dd9700
 }
 
-.editCampingP a:nth-child(1) {
+.edit .editCampingP a:nth-child(1) {
     text-decoration: none;
     color: #0099ff;
     float: right;
 }
 
-.leftImg{
+.edit .leftImg{
   border-radius: 3px;
   box-shadow: 0 0 1px #5e5e5e;
   width: 100%;
   margin-bottom: 20px;
 }
-.leftImg:hover{
+.edit .leftImg:hover{
   cursor: pointer;
 }
 
-.ourGoal{
+.edit .ourGoal{
   font-size: 18px;
   font-family: "Arial";
 }
 
-.strongOne{
+.edit .strongOne{
   color: #FFA500;
   font-size: 14px;
   margin-top: 20px;
   font-family: "Arial";
 }
 
-.headCoach{
+.edit .headCoach{
   margin-top: 20px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: 'Arial';
-  color: #777777;
+  /* color: #777777; */
 }
 
-.coachLiz{
+.edit .coachLiz{
   color: #FF0000;
   font-size: 14px;
   margin-top: 20px;
   font-family: "Arial";
 }
 
-.footer{
+.edit .footer{
   position: relative;
   z-index: 1;
   border-top: 4px solid #ffffff;
   background: #586476;
 }
 
-.footer a{
+.edit .footer a{
   color: #c6c6c6;
   font-size: 12px;
 }
-.footer a:hover{
+.edit .footer a:hover{
   text-decoration: underline;
 }
-.footerContent{
+.edit .footerContent{
   padding: 35px 5px 15px 5px;
 }
 
-.number{
+.edit .number{
   font-size: 24px !important;
 }
 @media (max-width:768px){
-  .white{
+  .edit .white{
     margin-top: 0px;
   }
 }
